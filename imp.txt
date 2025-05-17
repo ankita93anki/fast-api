@@ -41,5 +41,7 @@ pip install uvicorn
 
 run the server with 
 uvicorn main:app --reload
-
+OR
 uvicorn main:myapp --reload
+OR
+uvicorn import:myapp --reload
