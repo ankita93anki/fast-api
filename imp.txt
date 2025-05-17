@@ -45,3 +45,7 @@ OR
 uvicorn main:myapp --reload
 OR
 uvicorn import:myapp --reload
+
+
+for swagger doc
+http://localhost:8000/docs
