@@ -1,0 +1,43 @@
+FAST API is a super fast python web framework there are other framework like django or flask or may be other but fast api is very very  modern and it has avery nice feature ofa synchronous programming which is still lacking in django framework 
+
+features 
+Automatic documentation 
+Swagger UI - what you are creating and how it is going
+fast aPi provide another automatic doc ReDoc
+
+it is the modern framework still it also uses the modern features of python 
+
+it uses python 3.6 and more and using the pidentic library this fast api provides you the typing system that means you can type hint the variables and other things
+
+based on open standards 
+JSON Schema 
+Open API
+
+Open API is a Linux foundation under Linux foundation and it defined actually how you create your API since it is based upon this open api standards you are going to create the API in a very recommended way or standardized API 
+
+it also has the JSON schema that means it's it by default return json which every modern API need to communicate with other things so that's how it is so great 
+
+Security And Authentication 
+HTTP Basic 
+OAuth2 (also with JWT tokens)
+API keys in 
+   Headers
+   Query parameters
+   Cookies
+   Dependency Injection 
+   Unlimited plug-ins 
+   Tested 
+
+Fast API also uses Starlet is a another framework of python but since this FAST API is built over this starlet and starlet provide websocket support graphql support in progressive background task and shutting down of events that means all these things are available in FAST API and also support for
+Test client built on requests 
+CORS, gzip , static files streaming responses 
+Session and Cookie support and also support for SQL database NoSQL databases
+graphql
+
+python -m venv tutorial-env
+.\tutorial-env/Scripts/activate
+pip install fastapi
+pip install uvicorn
+
+run the server with 
+uvicorn main:app --reload
