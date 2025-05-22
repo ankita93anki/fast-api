@@ -1,0 +1,16 @@
+pydantic is Python Library for 
+-Data validation
+-Data parsing
+-Data modeling 
+using python type annotations(like str,int, list, etc)
+
+from pydantic import BaseModel
+class  User(BaseModel):
+   id:int 
+   name:str
+   is_active: bool = True #optional with default 
+
+#Creating model instance from dict
+user = User(id='1', name='Alice')
+print(user.id)  # 1 (converted from string)
+print(user.dict()) # {'id': 1, 'name': 'Alice', 'is_active': True}

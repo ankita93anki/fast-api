@@ -49,3 +49,7 @@ uvicorn import:myapp --reload
 
 for swagger doc
 http://localhost:8000/docs
+
+if port is busy so main.py 
+if __name__ == "__main__":
+    uvicorn.run(app, host="127.0.0.1", port=9000)

@@ -1,0 +1,8 @@
+1- https://fastapi.tiangolo.com/tutorial/sql-databases/#read-heroes
+
+2-https://docs.sqlalchemy.org/en/13/ select version-1.3
+
+3- It is a SQLAlchemy core function used to: Establish a connection to a database , Create a database engine object,Configure how your app talks to the database (e.g., SQLite, MySQL, PostgreSQL)
+
+3-ORM - An ORm has tools to convert ("map") between objects in code and database tables("relations")
+Suppose you have pets table so you create a class Pet so this class is a responsible of the crud part of this table so we are basically mapping for this object class Pet to table class pets
